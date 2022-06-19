@@ -9,6 +9,7 @@ body {
 	flex-direction:row;
 	flex-wrap:nowrap;
 	justify-content: center;
+	background-color: black;
 }
 div.navbutton {
 	display: inline-block;
