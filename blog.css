@@ -10,11 +10,12 @@ body {
 	flex-wrap:nowrap;
 	justify-content: center;
 	background-color: black;
+	height: 50px;
 }
 div.navbutton {
 	display: inline-block;
-	height: 60px;
-	width: 130px;
+	height: 40px;
+	width: 150px;
 	margin: 0%;
 }
 div.navbutton a {
