@@ -16,8 +16,15 @@ div.navbutton {
 	margin: 20px;
 }
 div.navbutton a {
-	width: 100%;
-	height: 100%;
+	display: inline-block;
+	width: 98%;
+	height: 98%;
 	background-color: black;
 	color: #FFD100;
+	border-width: 1%;
+	margin: 0px;
+}
+div.navbutton a:onhover {
+	color: white;
+	background-color: #55565A;
 }
