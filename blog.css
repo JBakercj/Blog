@@ -9,3 +9,8 @@ body {
 	flex-wrap:nowrap;
 	justify-content: center;
 }
+.navbutton {
+	height: 30px;
+	width: 100px;
+	margin: 20px;
+}
