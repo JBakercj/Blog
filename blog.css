@@ -2,6 +2,7 @@ body {
 	background-color: #55565A;
 	display: flex;
 	flex-direction: column;
+	margin: 0%;
 }
 #navbar {
 	display: flex;
@@ -11,9 +12,9 @@ body {
 }
 div.navbutton {
 	display: inline-block;
-	height: 50px;
-	width: 100px;
-	margin: 0px 10px;
+	height: 60px;
+	width: 130px;
+	margin: 0%;
 }
 div.navbutton a {
 	display: inline-block;
