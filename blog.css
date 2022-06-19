@@ -21,11 +21,13 @@ div.navbutton a {
 	height: 98%;
 	background-color: black;
 	color: #FFD100;
-	border-width: 1%;
+	border-style: outset; 
 	margin: 0px;
-	justify-content: center;
+	text-align: center;
 }
 div.navbutton a:hover {
 	color: white;
 	background-color: #55565A;
+	border-style: inset;
+	text-decoration: underline;
 }
