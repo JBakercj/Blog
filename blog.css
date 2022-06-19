@@ -23,8 +23,9 @@ div.navbutton a {
 	color: #FFD100;
 	border-width: 1%;
 	margin: 0px;
+	justify-content: center;
 }
-div.navbutton a:onhover {
+div.navbutton a:hover {
 	color: white;
 	background-color: #55565A;
 }
