@@ -28,6 +28,7 @@ div.navbutton a {
 	margin: 0px;
 	text-align: center;
 	font-size: 2em;
+	text-decoration: none;
 }
 div.navbutton a:hover {
 	color: white;
