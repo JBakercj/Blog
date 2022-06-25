@@ -8,7 +8,7 @@ body {
 	display: flex;
 	flex-direction:row;
 	flex-wrap:nowrap;
-	justify-content: center;
+	justify-content: right;
 	background-color: black;
 	height: 45px;
 }
@@ -27,12 +27,10 @@ div.navbutton a {
 	border-style: outset; 
 	margin: 0px;
 	text-align: center;
-	text-decoration: none;
 	font-size: 2em;
 }
 div.navbutton a:hover {
 	color: white;
 	background-color: #55565A;
 	border-style: inset;
-	text-decoration: underline;
 }
