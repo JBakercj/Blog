@@ -35,3 +35,20 @@ div.navbutton a:hover {
 	background-color: #55565A;
 	border-style: inset;
 }
+div.navbuttonselected a {
+	display: inline-block;
+	width: 98%;
+	height: 98%;
+	background-color: black;
+	color: white;
+	border-style: outset; 
+	margin: 0px;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+}
+div.navbuttonselected a:hover {
+	color: white;
+	background-color: #55565A;
+	border-style: inset;
+}
