@@ -53,9 +53,9 @@ div.navbuttonselected a:hover {
 	border-style: inset;
 }
 div.campaignpic{
-	display:float;
+	display:block;
 	float:left;
-	height:40px;
+	height:45px;
 }
 div.campaignpic img{
 	height:100%;
