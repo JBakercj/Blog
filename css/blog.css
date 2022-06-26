@@ -18,7 +18,7 @@ body {
 	flex-wrap:nowrap;
 	justify-content: center;
 	background-color: #55565A;
-	height: 80px;
+	height: 160px;
 }
 div.navbutton, div.navbuttonselected {
 	display: inline-block;
@@ -60,10 +60,15 @@ div.navbuttonselected a:hover {
 	background-color: #55565A;
 	border-style: inset;
 }
-div.campaignpic{
+#headercampaignpic{
 	display:inline-block;
-	height:100%;
+	width:40%;
 }
-div.campaignpic img{
-	height:100%;
+#headercampaignpic img{
+	width:100%;
+}
+#headerpersonalimage{
+	display:inline-block;
+	width:60%;
+	background-color: white;
 }
