@@ -12,7 +12,7 @@ body {
 	background-color: black;
 	height: 45px;
 }
-div.navbutton {
+div.navbutton, div.navbuttonselected {
 	display: inline-block;
 	height: 40px;
 	width: 150px;
