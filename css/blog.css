@@ -12,10 +12,18 @@ body {
 	background-color: black;
 	height: 45px;
 }
+#headerimage {
+	display: flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content: center;
+	background-color: #55565A;
+	height: 80px;
+}
 div.navbutton, div.navbuttonselected {
 	display: inline-block;
 	height: 40px;
-	width: 150px;
+	width: 200px;
 	margin: 0%;
 }
 div.navbutton a {
@@ -53,9 +61,8 @@ div.navbuttonselected a:hover {
 	border-style: inset;
 }
 div.campaignpic{
-	display:block;
-	float:left;
-	height:45px;
+	display:inline-block;
+	height:100%;
 }
 div.campaignpic img{
 	height:100%;
