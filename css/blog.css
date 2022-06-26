@@ -52,3 +52,11 @@ div.navbuttonselected a:hover {
 	background-color: #55565A;
 	border-style: inset;
 }
+div.campaignpic{
+	display:float;
+	float:left;
+	height:40px;
+}
+div.campaignpic img{
+	height:100%;
+}
