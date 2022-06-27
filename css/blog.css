@@ -72,5 +72,23 @@ div.navbuttonselected a:hover {
 #headerpersonalimage{
 	display:inline-block;
 	width:960px;
-	background-color: white;
+}
+#content {
+	height: 600px;
+	background-color: black;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	margin:0%;
+}
+#me {
+	height:300px;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+}
+#aboutme, #whycampaign {
+	width:50%;
+	display:inline-block;
+	height:100%;
 }
