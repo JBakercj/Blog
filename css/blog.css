@@ -98,10 +98,11 @@ div.contentheader {
 	font-size: 3em;
 	text-decoration: bold;
 	text-align: center;
+	margin: 20px 0px;
 }
 div.contentmessage {
 	display:inline-block;
 	color: white;
-	margin: 10px 7.5%;
+	margin: 0px 7.5%;
 	font-size: 1.5em;
 }
