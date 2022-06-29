@@ -89,6 +89,16 @@ div.navbuttonselected a:hover {
 }
 #aboutme, #whycampaign {
 	width:50%;
-	display:inline-block;
+	display:flex;
 	height:100%;
+	justify-content: center;
+	flex-direction: column;
+}
+div.contentheader {
+	display:inline-block;
+	color: #FFD100;
+}
+div.contentmessage {
+	display:inline-block;
+	color: white;
 }
