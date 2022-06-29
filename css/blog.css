@@ -37,7 +37,7 @@ div.navbutton a {
 	border-style: outset; 
 	margin: 0px;
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
 	text-decoration: none;
 }
 div.navbutton a:hover {
@@ -96,12 +96,13 @@ div.navbuttonselected a:hover {
 div.contentheader {
 	display:inline-block;
 	color: #FFD100;
-	font-size: 2em;
+	font-size: 3em;
 	text-decoration: bold;
 	text-align: center;
 }
 div.contentmessage {
 	display:inline-block;
 	color: white;
-	margin: 10%;
+	margin: 10% 0%;
+	font-size: 1.5em;
 }
