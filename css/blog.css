@@ -13,7 +13,7 @@ body {
 	flex-wrap:nowrap;
 	justify-content: right;
 	background-color: black;
-	height: 70px;
+	height: 65px;
 }
 #headerimage {
 	display: flex;
@@ -24,14 +24,14 @@ body {
 }
 div.navbutton, div.navbuttonselected {
 	display: inline-block;
-	height: 70px;
+	height: 65px;
 	width: 240px;
 	margin: 0px;
 }
 div.navbutton a {
 	display: inline-block;
 	width: 230px;
-	height: 64px;
+	height: 59px;
 	background-color: black;
 	color: #FFD100;
 	border-style: outset; 
@@ -48,7 +48,7 @@ div.navbutton a:hover {
 div.navbuttonselected a {
 	display: inline-block;
 	width: 230px;
-	height: 64px;
+	height: 59px;
 	background-color: black;
 	color: white;
 	border-style: outset; 
@@ -107,8 +107,23 @@ div.contentmessage {
 	font-size: 1.5em;
 }
 #mygoals{
-	background-color:white;
-	height: 250px;
+	background-color: black;
+	min-height: 250px;
+	display: flex;
+	flex-direction: column;
+}
+div.bulletlist{
+	display: flex;
+	flex-direction: row;
+}
+div.listcolumn{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+div.goal{
+	height: 30px;
+	font-size: 1.5em;
 }
 #footer {
 	background-color: #55565A;
