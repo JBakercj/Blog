@@ -124,6 +124,8 @@ div.listcolumn{
 div.goal{
 	height: 30px;
 	font-size: 1.5em;
+	color: white;
+	text-align: center;
 }
 #footer {
 	background-color: #55565A;
