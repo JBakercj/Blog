@@ -108,8 +108,9 @@ div.contentmessage {
 }
 #mygoals{
 	background-color:white;
+	height: 250px;
 }
 #footer {
 	background-color: #55565A;
-	height: 70px;
+	height: 150px;
 }
