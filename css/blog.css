@@ -13,7 +13,7 @@ body {
 	flex-wrap:nowrap;
 	justify-content: right;
 	background-color: black;
-	height: 65px;
+	height: 70px;
 }
 #headerimage {
 	display: flex;
@@ -21,7 +21,6 @@ body {
 	flex-wrap:nowrap;
 	justify-content: center;
 	background-color: #55565A;
-	height: 281px;
 }
 div.navbutton, div.navbuttonselected {
 	display: inline-block;
@@ -65,7 +64,7 @@ div.navbuttonselected a:hover {
 }
 #headercampaignpic{
 	display:inline-block;
-	width:33%;
+	width:40%;
 }
 #headercampaignpic a img{
 	width:100%;
