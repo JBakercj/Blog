@@ -115,6 +115,8 @@ div.contentmessage {
 div.bulletlist{
 	display: flex;
 	flex-direction: row;
+	width: 80%;
+	margin: 0% 10%;
 }
 div.listcolumn{
 	display: flex;
