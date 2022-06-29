@@ -74,7 +74,7 @@ div.navbuttonselected a:hover {
 	width:67%;
 }
 #content {
-	height: 600px;
+	min-height: 600px;
 	background-color: black;
 	display:flex;
 	flex-direction:column;
