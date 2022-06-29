@@ -78,7 +78,6 @@ div.navbuttonselected a:hover {
 	background-color: black;
 	display:flex;
 	flex-direction:column;
-	justify-content: center;
 	margin:0%;
 }
 #me {
