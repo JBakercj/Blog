@@ -25,7 +25,7 @@ body {
 div.navbutton, div.navbuttonselected {
 	display: inline-block;
 	height: 60px;
-	width: 200px;
+	width: 240px;
 	margin: 0%;
 }
 div.navbutton a {
@@ -102,6 +102,6 @@ div.contentheader {
 div.contentmessage {
 	display:inline-block;
 	color: white;
-	margin: 0% 10%;
+	margin: 10px 7.5%;
 	font-size: 1.5em;
 }
