@@ -2,8 +2,9 @@ body {
 	background-color: #55565A;
 	display: flex;
 	flex-direction: column;
-	margin: 0%;
-	width: 1600px;
+	margin: 0px;
+	width: 100%;
+	min-width: 960px;
 	justify-content: center;
 }
 #navbar {
@@ -26,12 +27,12 @@ div.navbutton, div.navbuttonselected {
 	display: inline-block;
 	height: 60px;
 	width: 240px;
-	margin: 0%;
+	margin: 0px;
 }
 div.navbutton a {
 	display: inline-block;
-	width: 98%;
-	height: 98%;
+	width: 230px;
+	height: 50px;
 	background-color: black;
 	color: #FFD100;
 	border-style: outset; 
@@ -47,8 +48,8 @@ div.navbutton a:hover {
 }
 div.navbuttonselected a {
 	display: inline-block;
-	width: 98%;
-	height: 98%;
+	width: 230px;
+	height: 50px;
 	background-color: black;
 	color: white;
 	border-style: outset; 
@@ -64,24 +65,24 @@ div.navbuttonselected a:hover {
 }
 #headercampaignpic{
 	display:inline-block;
-	width:640px;
+	width:33%;
 }
 #headercampaignpic a img{
 	width:100%;
 }
 #headerpersonalimage{
 	display:inline-block;
-	width:960px;
+	width:67%;
 }
 #content {
 	height: 600px;
 	background-color: black;
 	display:flex;
 	flex-direction:column;
-	margin:0%;
+	margin:0px;
 }
 #me {
-	height:300px;
+	min-height:300px;
 	display:flex;
 	flex-direction:row;
 	justify-content: center;
@@ -89,7 +90,6 @@ div.navbuttonselected a:hover {
 #aboutme, #whycampaign {
 	width:50%;
 	display:flex;
-	height:100%;
 	flex-direction: column;
 }
 div.contentheader {
@@ -103,6 +103,7 @@ div.contentheader {
 div.contentmessage {
 	display:inline-block;
 	color: white;
-	margin: 0px 7.5%;
+	width: 90%;
+	margin: 0px 5%;
 	font-size: 1.5em;
 }
