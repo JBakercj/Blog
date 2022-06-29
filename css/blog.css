@@ -48,13 +48,13 @@ div.navbutton a:hover {
 div.navbuttonselected a {
 	display: inline-block;
 	width: 230px;
-	height: 50px;
+	height: 64px;
 	background-color: black;
 	color: white;
 	border-style: outset; 
 	margin: 0px;
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
 	text-decoration: none;
 }
 div.navbuttonselected a:hover {
