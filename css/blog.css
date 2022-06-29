@@ -12,7 +12,7 @@ body {
 	flex-wrap:nowrap;
 	justify-content: right;
 	background-color: black;
-	height: 45px;
+	height: 65px;
 }
 #headerimage {
 	display: flex;
@@ -24,7 +24,7 @@ body {
 }
 div.navbutton, div.navbuttonselected {
 	display: inline-block;
-	height: 40px;
+	height: 60px;
 	width: 200px;
 	margin: 0%;
 }
@@ -102,6 +102,6 @@ div.contentheader {
 div.contentmessage {
 	display:inline-block;
 	color: white;
-	margin: 10% 0%;
+	margin: 0% 10%;
 	font-size: 1.5em;
 }
