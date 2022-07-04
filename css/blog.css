@@ -26,12 +26,10 @@ body {
 div.navbutton, div.navbuttonselected {
 	display: inline-block;
 	height: 65px;
-	width: 240px;
 	margin: 0px;
 }
 div.navbutton a {
 	display: inline-block;
-	width: 230px;
 	height: 65px;
 	background-color: black;
 	color: #FFD100;
@@ -46,7 +44,6 @@ div.navbutton a:hover {
 }
 div.navbuttonselected a {
 	display: inline-block;
-	width: 230px;
 	height: 65px;
 	color: white;
 	background-color: #55565A;
