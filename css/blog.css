@@ -115,6 +115,7 @@ div.contentimages{
 	display:flex;
 	flex-direction: row;
 	justify-content: center;
+	height:100%;
 }
 div.contentimages img{
 	min-width:100px;
