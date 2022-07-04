@@ -111,6 +111,11 @@ div.contentmessage {
 	margin: 0px 5%;
 	font-size: 1.5em;
 }
+div.contentimages{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
 #mygoals{
 	background-color: #0e0f11;
 	min-height: 250px;
