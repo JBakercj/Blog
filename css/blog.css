@@ -13,7 +13,7 @@ body {
 	flex-direction:row;
 	flex-wrap:nowrap;
 	justify-content: right;
-	background-color: black;
+	background-color: #0e0f11;
 	height: 65px;
 }
 #headerimage {
@@ -31,7 +31,7 @@ div.navbutton, div.navbuttonselected {
 div.navbutton a {
 	display: inline-block;
 	height: 65px;
-	background-color: black;
+	background-color: #0e0f11;
 	color: #FFD100;
 	margin: 0px;
 	text-align: center;
@@ -71,7 +71,7 @@ div.navbuttonselected a:hover {
 }
 #content {
 	min-height: 600px;
-	background-color: black;
+	background-color: #0e0f11;
 	display:flex;
 	flex-direction:column;
 	margin:0px;
@@ -109,7 +109,7 @@ div.contentmessage {
 	font-size: 1.5em;
 }
 #mygoals{
-	background-color: black;
+	background-color: #0e0f11;
 	min-height: 250px;
 	display: flex;
 	flex-direction: column;
