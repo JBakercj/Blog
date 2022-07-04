@@ -116,6 +116,10 @@ div.contentimages{
 	flex-direction: row;
 	justify-content: center;
 }
+div.contentimages img{
+	min-width:100px;
+	width:33%;
+}
 #mygoals{
 	background-color: #0e0f11;
 	min-height: 250px;
