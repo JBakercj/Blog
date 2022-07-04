@@ -130,7 +130,17 @@ div.goal{
 	display:flex;
 	flex-direction:column;
 }
+#contact div.links{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#contact div.links a{
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+}
 #footer {
 	background-color: #55565A;
-	justify-content: center;
+	text-align: center;
 }
