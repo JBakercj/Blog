@@ -37,7 +37,7 @@ div.navbutton a {
 	text-align: center;
 	font-size: 3em;
 	text-decoration: none;
-	padding: 0px 20px 0px 20px;
+	padding: 0px 20px;
 }
 div.navbutton a:hover {
 	color: white;
@@ -52,7 +52,7 @@ div.navbuttonselected a {
 	text-align: center;
 	font-size: 3em;
 	text-decoration: none;
-	padding: 0px 20px 0px 20px;
+	padding: 0px 20px;
 }
 div.navbuttonselected a:hover {
 	background-color: #55565A;
@@ -85,6 +85,11 @@ div.navbuttonselected a:hover {
 #aboutme, #whycampaign {
 	display:flex;
 	flex-direction: row;
+	justify-content: center;
+}
+#aboutme div, #whycampaign div {
+	display: inline-block;
+	width:50%
 }
 div.contentheader {
 	display:inline-block;
@@ -139,6 +144,7 @@ div.goal{
 	color: white;
 	font-size: 1.5em;
 	text-decoration: none;
+	margin: 0px 20px;
 }
 #footer {
 	background-color: #55565A;
