@@ -146,7 +146,7 @@ div.goal{
 	color: white;
 	font-size: 1.5em;
 	text-decoration: none;
-	margin: 0px 20px;
+	margin: 0px 20px 30px 20px;
 }
 #footer {
 	background-color: #55565A;
@@ -156,6 +156,6 @@ div.footernote {
 	display:inline-block;
 	color: white;
 	width: 90%;
-	margin: 0px 5%;
+	margin: 10px 5%;
 	font-size: .75em;
 }
