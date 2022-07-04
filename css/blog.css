@@ -32,10 +32,9 @@ div.navbutton, div.navbuttonselected {
 div.navbutton a {
 	display: inline-block;
 	width: 230px;
-	height: 59px;
+	height: 65px;
 	background-color: black;
 	color: #FFD100;
-	border-style: outset; 
 	margin: 0px;
 	text-align: center;
 	font-size: 3em;
@@ -44,24 +43,21 @@ div.navbutton a {
 div.navbutton a:hover {
 	color: white;
 	background-color: #55565A;
-	border-style: inset;
 }
 div.navbuttonselected a {
 	display: inline-block;
 	width: 230px;
-	height: 59px;
-	background-color: black;
+	height: 65px;
 	color: white;
-	border-style: outset; 
+	background-color: #55565A;
 	margin: 0px;
 	text-align: center;
 	font-size: 3em;
 	text-decoration: none;
 }
 div.navbuttonselected a:hover {
-	color: white;
 	background-color: #55565A;
-	border-style: inset;
+	color: white;
 }
 #headercampaignpic{
 	display:inline-block;
