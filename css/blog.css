@@ -52,7 +52,7 @@ div.navbuttonselected a {
 	text-align: center;
 	font-size: 3em;
 	text-decoration: none;
-	padding: 10px 0px 30px 0px;
+	padding: 0px 10px 0px 30px;
 }
 div.navbuttonselected a:hover {
 	background-color: #55565A;
