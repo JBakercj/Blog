@@ -154,11 +154,16 @@ div.listcolumn{
 	flex-direction: column;
 	width: 50%;
 }
-div.goal{
+a.goal{
 	height: 30px;
 	font-size: 1.5em;
 	color: white;
 	text-align: center;
+	text-decoration: none;
+}
+a.goal:hover{
+	color:#FFD100;
+	background-color:#55565A;
 }
 #contact {
 	background-color: #55565A;
