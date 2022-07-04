@@ -78,6 +78,13 @@ div.navbuttonselected a:hover {
 	flex-direction:column;
 	margin:0px;
 }
+#contactcontent {
+	background-color: #0e0f11;
+	display:flex;
+	flex-direction:column;
+	margin:0px;
+	justify-content:center;
+}
 #me {
 	min-height:300px;
 	display:flex;
