@@ -120,6 +120,9 @@ div.contentimages{
 div.contentimages img{
 	min-width:100px;
 	width:33%;
+	height: auto;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 #mygoals{
 	background-color: #0e0f11;
