@@ -29,6 +29,7 @@ div.navbutton, div.navbuttonselected {
 	margin: 0px;
 }
 div.navbutton a {
+	font-weight: 500;
 	display: inline-block;
 	height: 65px;
 	background-color: #0e0f11;
@@ -44,6 +45,7 @@ div.navbutton a:hover {
 	background-color: #55565A;
 }
 div.navbuttonselected a {
+	font-weight: 500;
 	display: inline-block;
 	height: 65px;
 	color: white;
@@ -96,6 +98,7 @@ div.contentcolumn {
 div.contentheader {
 	display:inline-block;
 	color: #FFD100;
+	font-weight: bold;
 	font-size: 3em;
 	text-decoration: bold;
 	text-align: center;
@@ -148,6 +151,11 @@ div.goal{
 	text-decoration: none;
 	margin: 0px 20px 30px 20px;
 }
+
+#contact div.links a:hover {
+    transform: translateY(8px);
+}
+
 #footer {
 	background-color: #55565A;
 	text-align: center;
