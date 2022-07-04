@@ -79,13 +79,12 @@ div.navbuttonselected a:hover {
 #me {
 	min-height:300px;
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	justify-content: center;
 }
 #aboutme, #whycampaign {
-	width:50%;
 	display:flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 div.contentheader {
 	display:inline-block;
@@ -98,7 +97,7 @@ div.contentheader {
 div.contentmessage {
 	display:inline-block;
 	color: white;
-	width: 90%;
+	width: 40%;
 	margin: 0px 5%;
 	font-size: 1.5em;
 }
@@ -125,7 +124,13 @@ div.goal{
 	color: white;
 	text-align: center;
 }
+#contact {
+	background-color: #55565A;
+	justify-content: center;
+	display:flex;
+	flex-direction:column;
+}
 #footer {
 	background-color: #55565A;
-	height: 150px;
+	justify-content: center;
 }
