@@ -6,6 +6,7 @@ body {
 	width: 100%;
 	min-width: 960px;
 	justify-content: center;
+	font-family: 'Poppins', sans-serif;
 }
 #navbar {
 	display: flex;
