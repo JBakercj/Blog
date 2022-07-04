@@ -156,10 +156,12 @@ div.listcolumn{
 }
 a.goal{
 	height: 30px;
-	font-size: 1.5em;
+	font-size: 2em;
 	color: white;
 	text-align: center;
 	text-decoration: none;
+	font-weight:500;
+	padding: 10px;
 }
 a.goal:hover{
 	color:#FFD100;
