@@ -91,6 +91,7 @@ div.navbuttonselected a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	width: 50%;
 }
 div.contentheader {
 	display:inline-block;
