@@ -137,6 +137,22 @@ div.contentimages img{
 	margin-top: auto;
 	margin-bottom: auto;
 }
+@media all and (max-width:800px){
+	div.content images{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		height:90%;
+		margin-top: 10%;
+	}
+	div.contentimages img{
+		min-width:100px;
+		width:100%;
+		height: auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
 #mygoals{
 	background-color: #0e0f11;
 	min-height: 250px;
