@@ -148,13 +148,13 @@ div.contentimages img{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 70%;
+		width: 80%;
 	}
 	div.contentcolumnright {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 30%;
+		width: 20%;
 	}
 	div.contentimages{
 		display:flex;
