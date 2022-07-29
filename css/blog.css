@@ -161,7 +161,7 @@ a.goal{
 	text-align: center;
 	text-decoration: none;
 	font-weight:500;
-	padding: 10px;
+	padding: 10px 20px;
 }
 a.goal:hover{
 	color:#FFD100;
