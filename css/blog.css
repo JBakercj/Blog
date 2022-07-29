@@ -13,7 +13,7 @@ body {
 	flex-direction:row;
 	flex-wrap:nowrap;
 	justify-content: right;
-	background-color: rgb(37, 40, 46);
+	background-color:rgb(98, 105, 119);
 	height: 65px;
 }
 #headerimage {
@@ -32,7 +32,7 @@ div.navbutton a {
 	font-weight: 500;
 	display: inline-block;
 	height: 65px;
-	background-color: rgb(37, 40, 46);
+	background-color:rgb(98, 105, 119);
 	color: #FFD100;
 	margin: 0px;
 	text-align: center;
@@ -73,13 +73,13 @@ div.navbuttonselected a:hover {
 }
 #content {
 	min-height: 600px;
-	background-color: rgb(37, 40, 46);
+	background-color:rgb(98, 105, 119);
 	display:flex;
 	flex-direction:column;
 	margin:0px;
 }
 #contactcontent {
-	background-color: rgb(37, 40, 46);
+	background-color:rgb(98, 105, 119);
 	display:flex;
 	flex-direction:column;
 	padding:30px 0px;
@@ -172,7 +172,7 @@ div.contentimages img{
 	}
 }
 #mygoals{
-	background-color: rgb(37, 40, 46);
+	background-color:rgb(98, 105, 119);
 	min-height: 250px;
 	display: flex;
 	flex-direction: column;
