@@ -86,7 +86,7 @@ div.navbuttonselected a:hover {
 	justify-content:center;
 	text-align: center;
 }
-#contactcontent div a{
+#contactcontent div a.link{
 	text-decoration: none;
 	color: #FFD100;
 }
@@ -101,7 +101,13 @@ div.navbuttonselected a:hover {
 	flex-direction: row;
 	justify-content: center;
 }
-div.contentcolumn {
+div.contentcolumnleft {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+div.contentcolumnright {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -138,6 +144,18 @@ div.contentimages img{
 	margin-bottom: auto;
 }
 @media all and (max-width:1200px){
+	div.contentcolumnleft {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 70%;
+	}
+	div.contentcolumnright {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 30%;
+	}
 	div.contentimages{
 		display:flex;
 		flex-direction: column;
