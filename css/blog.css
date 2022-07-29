@@ -138,7 +138,7 @@ div.contentimages img{
 	margin-bottom: auto;
 }
 @media all and (max-width:1200px){
-	div.content images{
+	div.contentimages{
 		display:flex;
 		flex-direction: column;
 		justify-content: center;
