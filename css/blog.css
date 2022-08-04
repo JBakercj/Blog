@@ -143,34 +143,6 @@ div.contentimages img{
 	margin-top: auto;
 	margin-bottom: auto;
 }
-@media all and (max-width:1200px){
-	div.contentcolumnleft {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		width: 80%;
-	}
-	div.contentcolumnright {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		width: 20%;
-	}
-	div.contentimages{
-		display:flex;
-		flex-direction: column;
-		justify-content: center;
-		height:90%;
-		margin-top: 10%;
-	}
-	div.contentimages img{
-		min-width:100px;
-		width:100%;
-		height: auto;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-}
 #mygoals{
 	background-color:rgb(98, 105, 119);
 	min-height: 250px;
@@ -233,4 +205,50 @@ div.footernote {
 	width: 90%;
 	margin: 10px 5%;
 	font-size: .75em;
+}
+@media all and (max-width:1200px){
+	#headerimage {
+		display: flex;
+		flex-direction:column;
+		flex-wrap:nowrap;
+		justify-content: center;
+		background-color: #55565A;
+	}
+	div.contentcolumnleft {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 80%;
+	}
+	div.contentcolumnright {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 20%;
+	}
+	div.contentimages{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		height:90%;
+		margin-top: 10%;
+	}
+	div.contentimages img{
+		min-width:100px;
+		width:100%;
+		height: auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#headercampaignpic{
+		display:inline-block;
+		width:100%;
+	}
+	#headercampaignpic a img{
+		width:100%;
+	}
+	#headerpersonalimage{
+		display:inline-block;
+		width:100%;
+	}
 }
