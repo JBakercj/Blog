@@ -1,0 +1,254 @@
+body {
+	background-color: #55565A;
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
+	width: 100%;
+	min-width: 960px;
+	justify-content: center;
+	font-family: 'Poppins', sans-serif;
+}
+#navbar {
+	display: flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content: right;
+	background-color:rgb(98, 105, 119);
+	height: 65px;
+}
+#headerimage {
+	display: flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content: center;
+	background-color: #55565A;
+}
+div.navbutton, div.navbuttonselected {
+	display: inline-block;
+	height: 65px;
+	margin: 0px;
+}
+div.navbutton a {
+	font-weight: 500;
+	display: inline-block;
+	height: 65px;
+	background-color:rgb(98, 105, 119);
+	color: #FFD100;
+	margin: 0px;
+	text-align: center;
+	font-size: 3em;
+	text-decoration: none;
+	padding: 0px 20px;
+}
+div.navbutton a:hover {
+	color: white;
+	background-color: #55565A;
+}
+div.navbuttonselected a {
+	font-weight: 500;
+	display: inline-block;
+	height: 65px;
+	color: white;
+	background-color: #55565A;
+	margin: 0px;
+	text-align: center;
+	font-size: 3em;
+	text-decoration: none;
+	padding: 0px 20px;
+}
+div.navbuttonselected a:hover {
+	background-color: #55565A;
+	color: white;
+}
+#headercampaignpic{
+	display:inline-block;
+	width:40%;
+}
+#headercampaignpic a img{
+	width:100%;
+}
+#headerpersonalimage{
+	display:inline-block;
+	width:67%;
+}
+#content {
+	min-height: 600px;
+	background-color:rgb(98, 105, 119);
+	display:flex;
+	flex-direction:column;
+	margin:0px;
+}
+#contactcontent {
+	background-color:rgb(98, 105, 119);
+	display:flex;
+	flex-direction:column;
+	padding:30px 0px;
+	justify-content:center;
+	text-align: center;
+}
+#contactcontent div a.link{
+	text-decoration: none;
+	color: #FFD100;
+}
+#me {
+	min-height:300px;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+}
+#aboutme, #whycampaign {
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+div.contentcolumnleft {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+div.contentcolumnright {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+div.contentheader {
+	display:inline-block;
+	color: #FFD100;
+	font-weight: bold;
+	font-size: 3em;
+	text-decoration: bold;
+	text-align: center;
+	margin: 20px 0px;
+}
+div.contentmessage {
+	display:inline-block;
+	color: white;
+	width: 90%;
+	margin: 0px 5%;
+	font-size: 1.5em;
+}
+div.contentimages{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	height:90%;
+	margin-top: 10%;
+}
+div.contentimages img{
+	min-width:100px;
+	width:33%;
+	height: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#mygoals{
+	background-color:rgb(98, 105, 119);
+	min-height: 250px;
+	display: flex;
+	flex-direction: column;
+}
+div.bulletlist{
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	margin: 0% 10% 20px 10%;
+}
+div.listcolumn{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+a.goal{
+	display:inline-block;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-weight:500;
+	padding: 10px 20px;
+}
+a.goal:hover{
+	color:#FFD100;
+	background-color:#55565A;
+}
+#contact {
+	background-color: #55565A;
+	justify-content: center;
+	display:flex;
+	flex-direction:column;
+}
+#contact div.links{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#contact div.links a{
+	color: white;
+	font-size: 1.5em;
+	text-decoration: none;
+	margin: 0px 20px 30px 20px;
+}
+
+#contact div.links a:hover {
+    transform: translateY(8px);
+}
+
+#footer {
+	background-color: #55565A;
+	text-align: center;
+}
+div.footernote {
+	display:inline-block;
+	color: white;
+	width: 90%;
+	margin: 10px 5%;
+	font-size: .75em;
+}
+@media all and (max-width:1200px){
+	#headerimage {
+		display: flex;
+		flex-direction:column;
+		flex-wrap:nowrap;
+		justify-content: center;
+		background-color: #55565A;
+	}
+	div.contentcolumnleft {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 80%;
+	}
+	div.contentcolumnright {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 20%;
+	}
+	div.contentimages{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		height:90%;
+		margin-top: 10%;
+	}
+	div.contentimages img{
+		min-width:100px;
+		width:100%;
+		height: auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#headercampaignpic{
+		display:inline-block;
+		width:100%;
+	}
+	#headercampaignpic a img{
+		width:100%;
+	}
+	#headerpersonalimage{
+		display:inline-block;
+		width:100%;
+	}
+}
