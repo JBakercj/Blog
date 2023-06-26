@@ -62,14 +62,15 @@ div.navbuttonselected a:hover {
 }
 #headercampaignpic{
 	display:inline-block;
-	width:40%;
+	width:100%;
 }
 #headercampaignpic a img{
-	width:100%;
+	width:40%;
+	margin: auto;
 }
 #headerpersonalimage{
 	display:inline-block;
-	width:60%;
+	width:0%;
 }
 #content {
 	min-height: 600px;
