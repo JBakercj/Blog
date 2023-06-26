@@ -1,5 +1,5 @@
 body {
-	background-color: #55565A;
+	background-color: #000000;
 	display: flex;
 	flex-direction: column;
 	margin: 0px;
@@ -21,7 +21,7 @@ body {
 	flex-direction:row;
 	flex-wrap:nowrap;
 	justify-content: center;
-	background-color: #55565A;
+	background-color: #000000;
 }
 div.navbutton, div.navbuttonselected {
 	display: inline-block;
@@ -69,7 +69,7 @@ div.navbuttonselected a:hover {
 }
 #headerpersonalimage{
 	display:inline-block;
-	width:67%;
+	width:60%;
 }
 #content {
 	min-height: 600px;
