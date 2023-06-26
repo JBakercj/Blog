@@ -175,7 +175,7 @@ a.goal:hover{
 	background-color:#55565A;
 }
 #contact {
-	background-color: #55565A;
+	background-color: #000000;
 	justify-content: center;
 	display:flex;
 	flex-direction:column;
@@ -197,7 +197,7 @@ a.goal:hover{
 }
 
 #footer {
-	background-color: #55565A;
+	background-color: #000000;
 	text-align: center;
 }
 div.footernote {
@@ -213,7 +213,7 @@ div.footernote {
 		flex-direction:column;
 		flex-wrap:nowrap;
 		justify-content: center;
-		background-color: #55565A;
+		background-color: #000000;
 	}
 	div.contentcolumnleft {
 		display: flex;
