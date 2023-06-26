@@ -66,7 +66,8 @@ div.navbuttonselected a:hover {
 }
 #headercampaignpic a img{
 	width:40%;
-	margin: auto;
+	margin-left: 30%;
+	margin-right: 30%;
 }
 #headerpersonalimage{
 	display:inline-block;
