@@ -217,19 +217,20 @@ div.footernote {
 		background-color: #000000;
 	}
 	#content {
-		width:100%
+		width:100%;
+		min-width:960px;
 	}
 	div.contentcolumnleft {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 80%;
+		width: 50%;
 	}
 	div.contentcolumnright {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 20%;
+		width: 50%;
 	}
 	div.contentimages{
 		display:flex;
