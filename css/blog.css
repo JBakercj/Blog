@@ -247,10 +247,10 @@ div.footernote {
 		width:100%;
 	}
 	#headercampaignpic a img{
-		width:100%;
+		width:80%;
 	}
 	#headerpersonalimage{
 		display:inline-block;
-		width:100%;
+		width:0%;
 	}
 }
