@@ -216,6 +216,9 @@ div.footernote {
 		justify-content: center;
 		background-color: #000000;
 	}
+	#content {
+		width:100%
+	}
 	div.contentcolumnleft {
 		display: flex;
 		flex-direction: column;
@@ -247,7 +250,7 @@ div.footernote {
 		width:100%;
 	}
 	#headercampaignpic a img{
-		width:80%;
+		width:100%;
 	}
 	#headerpersonalimage{
 		display:inline-block;
