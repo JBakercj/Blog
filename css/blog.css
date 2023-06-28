@@ -216,21 +216,17 @@ div.footernote {
 		justify-content: center;
 		background-color: #000000;
 	}
-	#content {
-		width:100%;
-		min-width:960px;
-	}
 	div.contentcolumnleft {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 50%;
+		width: 80%;
 	}
 	div.contentcolumnright {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 50%;
+		width: 20%;
 	}
 	div.contentimages{
 		display:flex;
@@ -252,6 +248,8 @@ div.footernote {
 	}
 	#headercampaignpic a img{
 		width:100%;
+		margin-left:0%;
+		margin-right:0%;
 	}
 	#headerpersonalimage{
 		display:inline-block;
