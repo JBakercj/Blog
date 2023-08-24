@@ -16,6 +16,13 @@ body {
 	background-color:rgb(98, 105, 119);
 	height: 65px;
 }
+#alert {
+	display: flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:center;
+	background-color: #000000;
+}
 #headerimage {
 	display: flex;
 	flex-direction:row;
@@ -59,6 +66,15 @@ div.navbuttonselected a {
 div.navbuttonselected a:hover {
 	background-color: #55565A;
 	color: white;
+}
+div.alert {
+	font-weight: 500;
+	display: inline-block;
+	height: 65px;
+	color: white;
+	text-align:center;
+	font-size: 3em;
+	text-decoration: none;
 }
 #headercampaignpic{
 	display:inline-block;
